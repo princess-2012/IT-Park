@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Form Practice</title>
+</head>
+<body>
+   <h1>HTML Form Practice</h1> 
+
+   <!--FORM BOSHLANISHI-->
+   <!--Bu yerda biz foydalanuvchi ma'lumotlarini yig'amiz -->
+   <form id="userForm">
+       <!-- 1) TEXT INPUT + LABEL -->
+       <label for="username">Username:</label>
+       <input
+       type="text"
+       id="username"
+       name="username"
+       placeholder="OYDINOY"
+       value="Oydinoy"
+       />
+       <br /><br />
+
+       <!-- 2) NUMBER INPUT + LABEL -->
+       <label for="age">Age:</label>
+       <input
+       type="number"
+       id="age"
+       name="age"
+       placeholder="14"
+        />
+        <br /><br />
+
+        <!-- 3) CHECBOX + LABEL (id + for bog'lanishi) --> 
+        <input
+        type="checkbox"
+        id="is Student"
+        name="is Student" 
+        />
+        <label for="is Student">I am a Student</label>
+        <br /><br />
+
+        <!-- 4) SELECT + OPTION + VALUE + SELECTED -->
+        <label for="task STATUS">Task status:</label>
+        <select id="task Status" name="task Status"></select>
+        <!-- default select bo'sh option -->
+        <option value="">--Choose status--</option>
+
+        <!--  default select bo'lgan option -->
+        <option value="todo" selected>To do</option>
+        <option value="in-progress">In progress</option>
+        <option value="done">Done</option>
+        <select>
+            <br /><br />
+
+            <!--BUTTON-->
+            <button type="button" onclick="showResult()">
+                Show result 
+            <button>
+                <form>
+
+                    <h2>Result</h2>
+                    <div id="output"></div>
+                    
+                    <!-- KICHIK JAVASCRIPT (faqat natijani ko'rsatish uchun )-->
+                    <script>
+                        functiont showResult() {
+                            const username = document.getelementbyid('oydinoy').vaule;
+                            const age = document.getElementyId('age').vaule;
+                            const is Student = document.getElementById('is Student').checked;
+                            const taskStatus = document.getElementById('taskStatus').value;
+                            let text = "index.html";
+                            text ="oydinoy: ".oydinoy."<br>";
+                            text ="Age:".age.<br>
+                            text ="Is student: ".(isStudent ? "Yes" : "No").<br>
+                            document.getElementById('output').innerHTML = text;
+                        }
+                    </script>
+                </form>
+            </button>
+        </select>
+
+
+        
+</body>
+</html>
