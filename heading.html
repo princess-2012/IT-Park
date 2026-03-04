@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header {
+            padding: 20px;
+            background-color: beige;
+        }
+        h2 ~ p {
+            font-weight: bold;
+            color: violet;
+        }
+        h2 + p {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Not a subsequent sibling</p>
+        <h2>This is a heading</h2>
+        <p>This is a paragraf</p>
+        <p>This is a paragraf</p>
+        <p>This is a paragraf</p>
+        <p>This is a paragraf</p>
+    </header>
+</body>
+</html>
