@@ -2,128 +2,129 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    line-height: 2;
 }
 
 .container {
-    margin: auto;
-    width: 50%;
-}
-
-header {
-    margin: auto;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
-body {
-    background-color: whitesmoke;
-}
-
-.miniui {
-    background-color: white;
-    width: 100%;
-    padding-left: 700px;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 2;
 }
 
 .nav {
     text-decoration: none;
     color: black;
-    border: 1px solid whitesmoke;
     margin-right: 15px;
+    border: 1px solid whitesmoke;
 }
 
 .navs {
     text-decoration: none;
     color: black;
-    border: black 1px solid;
+    border: 2px solid black;
+    padding: 1px;
+}
+
+.avatar {
+    border: solid white 3px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+body {
+    background-color: whitesmoke;
 }
 .images {
     border-radius: 50%;
     width: 100px;
-    margin-bottom: 10%;
-    margin-right: 10px;
+    margin-bottom: 3%;
 }
-.english {
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-right: 15px;
-}
-.epam {
-   border: solid whitesmoke 1px;
-   border-radius: 10px;
-   margin-right: 15px;
-}
-.card {
-    background-color: white;
-    border: white solid 1px;
-    padding: 5px;
-    border-radius: 15px;
-}
-.avatar {
+.devops {
     display: inline-block;
 }
-.view-plans {
-    border: black solid 3px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    margin-top: 15px;
-    margin-right: 20px;
-}
-.contact {
-    border: black solid 2px;
-    border-radius: 5px;
-    margin-top: 15px;
+.miniui {
+    background-color: white ;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding-left: 250px;
 }
 .starter {
-    border: white solid 3px;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
+    border: white solid 3px;
+    width: 300px;
+    padding: 10px 20px;
     display: inline-block;
     margin-right: 25px;
-}
-.choose-starter {
-    border: black 2px solid;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 10px;
 }
 .pro {
-    border: black solid 3px;
     background-color: white;
-    width: 400px;
-    padding: 20px;
+    border: black 3px solid;
+    width: 300px;
+    padding: 10px 20px;
     display: inline-block;
     margin-right: 25px;
     border-radius: 10px;
 }
+.choose-starter {
+    border: black solid 3px;
+    text-align: center;
+    border-radius: 7px;
+}
 .choose-pro {
-    border: black solid 2px;
+    border: black solid 3px;
     background-color: black;
     color: white;
     text-align: center;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 7px;
 }
 .team {
     border: white solid 3px;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
+    width: 300px;
     display: inline-block;
+    padding: 10px 20px ;
+    border-radius: 10px;
 }
 .footer {
-    border: white solid 3px;
-    padding: 10px;
     background-color: white;
-    margin-top: 25px;
-    border-radius: 10px;
-}
-.big-container {
+    border: 3px solid white;
+    padding: 10px;
     margin-top: 30px;
+    border-radius: 7px;
+    width: 50%;
+    
+}
+.english {
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.epam {
+         border: solid 1px whitesmoke;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.view-plans {
+    background-color: black;
+    border: black solid 2px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.contact {
+    border: black solid 2px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.section {
+    margin: 0 auto;
+}
+.main {
+    margin: 0 auto;
+    padding: 0 300px;
+}
+.css {
+    padding-left: 620px;
 }
