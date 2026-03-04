@@ -3,73 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>File</title>
+    <style>
+        .class {
+            border: solid 2px black;
+            border-radius: 10px;
+            width: 70%;
+            margin: auto;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+          
+        }
+        h1{
+            text-align: center;
+            
+        }
+        .h12 {
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 100px ;
+        }
+        h2{
+            text-align: center;
+        }
+        .card {
+            background-color: whitesmoke;
+            margin: auto;
+            width:  auto;
+            padding: 10px auto;
+            height: auto;
+            border: 2px solid black;
+        }
+        .java{
+            border: 3px solid black;
+            align-content: center;
+            padding: 10px auto;
+            margin: auto;
+            background-color: whitesmoke;
+            height: auto;
+             width: 70%;
+             margin-bottom: 30px;
+             border-radius: 10px;
+        }
+        span {
+            border: 2px solid black;
+            border-radius: 7px;
+        }
+        .file {
+        border: 2px solid black;
+        border-radius: 7px;
+        margin: auto;
+        width: 15%;
+        align-content: center;
+        }
+        
+    </style>
 </head>
 <body>
-    <header class="header">
-        <div class="miniui">
-       <h1>MiniUI</h1>
-       <nav>
-        <a class="nav" href="#">Profile</a>
-        <a class="nav" href="#">Pricing</a>
-        <a class="navs" href="#">Get Started</a>
-       </nav>
-       </div>
-    </header>
-    <main class="container">
-    <section>
-        <h2>Profile Card</h2>
-        <p>Box model * display * margin * center</p>
-        <div class="card"> 
-            <img class="images" src="data:image/jpeg;base64,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" alt="">
-            <div class="avatar">
-            <h2>Akmal DevOps</h2>
-            <h3>Backend & Akmal Engeneer</h3>
-            <p>Bu sahifa faqat display va inline-block bilan ishlatilgan.</p>
-            <h4><span class="english">B2 -> c1 English</span> <span class="epam">Epam</span> <span class="epam">Linux</span></h4>
-            <h3><span class="view-plans">View Plans</span> <span class="contact">Contact</span></h3>
+    <div class="h12">
+     <h1>Class Dashboard</h1>
+    <div class="class">
+       
+            <div class="card">
+                <h2>Profile Card</h2>
+                <hr>
+                <p>Name <span>AKTIVE</span></p>
+                <p>HTML – bu (ing. HyperText Markup Language, uzb. Giper matnli belgilash tili) bo’lib, umumjahon internet tarmog’idagi hujjatlar uchun standartlashtirilgan belgilash tili hisoblanadi.</p>
+         <ul>
+        <li>Box border</li>
+        <li>HTML va CSS</li>
+        <li>XHTML</li>
+        <li>HTMLGML</li>
+        <p class="file">LIVE server</p>
+        </ul>
+         </div>
+             </div>
+        <div class="java">
+            <h2>Modellashtirish</h2>
+            <hr>
+            <p>Javascript</p>
+            <ul>
+                <li>Notebook or Compyuter</li>
+                <li>HTML or CSS</li>
+                <li>Border box</li>
+                <li>Programmer</li>
+            </ul>
+            <p>Database or Framework</p>
             </div>
-        </div>
-    </section>
-    <section>
-        <h2>Pricing Card</h2>
-        <p>Display inline-block * margin * bottom * box-sizing</p>
-        <div class="big-container">
-        <div class="starter">
-            <h3>Starter</h3>
-            <h1>$9</h1>
-            <ul>
-                <li>1 Project</li>
-                <li>Bassic Support</li>
-                <li>100 Elements</li>
-            </ul>
-            <h2 class="choose-starter">Choose Starter</h2>
-        </div>
-        <div class="pro">
-            <h3>Pro</h3>
-            <h1>$19</h1>
-            <ul>
-                <li>100 Projects</li>
-                <li>Pro Support</li>
-                <li>10000 Elements</li>
-            </ul>
-            <h2 class="choose-pro">Choose Pro</h2>
-        </div>
-        <div class="team">
-            <h3>Team</h3>
-            <h1>$39</h1>
-            <ul>
-                <li>Unliment Projects</li>
-                <li>Team Supports</li>
-                <li>Vip Elements</li>
-            </ul>
-            <h2 class="choose-starter">Choose Team</h2>
-        </div>
-    </section>
-    </main>
-    <footer class="container">
-       <p class="footer">Tip: bu loyout faqat display,inline block,margin,width,padding bilan ishlangan.</p>
-    </footer>
+    </div>
+   
 </body>
 </html>
