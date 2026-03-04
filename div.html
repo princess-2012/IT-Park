@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            height: 500px;
+        .parent-div {
             background-color: aquamarine;
-        }
-        div {
-            background-color: blue;
             width: 50%;
+            height: 200px;
+        }
+        .child-div {
+            background-color: cornflowerblue;
             height: 50%;
+            width: 150px;
         }
     </style>
 </head>
 <body>
-    <div>
-        Lorem ipsum dolor sit amet
+    <div class="parent-div">
+        <div class="child-div"></div>
     </div>
 </body>
 </html>
