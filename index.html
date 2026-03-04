@@ -1,83 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Classes and Ids</title>
+    <style>
+          p{
+            background-color: cornflowerblue;
+            color: cornsilk;
+        }
+        #blueparagraf{
+            color: blue;
+        }
+        .greenelement{
+            color: green;
+        }
+        .greybackgrou{
+           background-color: antiquewhite;
+        }
+    </style>
+    
 </head>
-
 <body>
-    <header class="miniui">
-        <div class="container">
-        <h1>MiniUI</h1>
-        <nav>
-            <a class="nav" href="#">Profile</a>
-            <a class="nav" href="#">Pricing</a>
-            <a class="navs" href="#">Get Started</a>
-        </nav>
-        </div>
-    </header>
-  <div class="main">
-    <main class="container">
-        <section class="section">
-            <h2>Profile Card</h2>
-            <p><span>Box model * margin * width * display</span></p>
-            <div class="avatar">
-                <img class="images"
-                    src="data:image/jpeg;base64,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"
-                    alt="">
-                    <div class="devops">
-                <h2>Akmal DevOps</h2>
-                <h3>HTML is the standard markup language for Web pages</h3>
-                <p>W3.CSS makes it easy to develop sites that look nice on any device; desktop, laptop, tablet, or
-                    phone:</p>
-                <h3><span class="english">B2 -> C1 English</span> <span class="epam">Epam</span> <span
-                        class="epam">Linux</span></h3>
-                        <h2><span class="view-plans">View Plans</span> <span class="contact">Contact</span></h2>
-                        </div>
-            </div>
-        </section>
-        <section class="section">
-            <h2>Pricing Card</h2>
-            <p><span>Html * Css * javascript * Display * inline-block</span></p>
-            <div class="starter">
-                <h3>Starter</h3>
-                <h1>$9</h1>
-                <ul>
-                    <li>1 Project</li>
-                    <li>Basic Support</li>
-                    <li>XHR - XML Http Request</li>
-                </ul>
-                <h2 class="choose-starter">Choose Starter</h2>
-            </div>
-            <div class="pro">
-                <h3>Pro</h3>
-                <h1>$19</h1>
-                <ul>
-                    <li>10 Projects</li>
-                    <li>Classic Support</li>
-                    <li>A Simple HTML Document</li>
-                </ul>
-                <h2 class="choose-pro">Choose Pro</h2>
-            </div>
-            <div class="team">
-                <h3>Team</h3>
-                <h1>$39</h1>
-                <ul>
-                    <li>Unliminted Projects</li>
-                    <li>HTML Attributes</li>
-                    <li>HTML Document Structure</li>
-                </ul>
-                <h2 class="choose-starter">Choose Team</h2>
-            </div>
-        </section>
-    </main>
-</div>
-    <footer class="css">
-        <p class="footer">Tip: bu loyaout faqat display,inline-block,margin,width atributlari bilan ishlangan.</p>
-    </footer>
+    <p>This is a MERRY CHRISTMAS</p>
+     <p>This is a MERRY CHRISTMAS</p> 
+      <p id="blueparagraf" class="greenelement">This is a MERRY CHRISTMAS</p>
+       <p>This is a MERRY CHRISTMAS</p>
+        <p>This is a MERRY CHRISTMAS</p>
+         <p class="greenelement">This is a MERRY CHRISTMAS</p>
+          <p class="greenelement greybackgrou">This is a MERRY CHRISTMAS</p>
+           <p>This is a MERRY CHRISTMAS</p>
+      
+       
+    
+    
 </body>
-
 </html>
