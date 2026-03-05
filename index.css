@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    
+}
+.starter {
+    border: 2px solid white;
+    display: inline-block;
+}
+body {
+    background-color: whitesmoke;
+    
+}
+.pro {
+    border: 2px solid black;
+    display: inline-block;
+}

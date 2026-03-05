@@ -1,20 +1,151 @@
 * {
-    margin: 0;
-    padding: 0 30px;
     box-sizing: border-box;
-}
-body {
-    background-color: whitesmoke;
-}
-.chen {
-    color: green;
-}
-.ross {
-    color: orange;
-}
-.contine {
-    color: white;
-    border: 4px solid rgb(9, 9, 124);
-    width: 200px;
-    background-color: rgb(125, 125, 247);
-}
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    background: #fff;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar h2 {
+    display: inline-block;
+  }
+  
+  .nav-links {
+    float: right;
+  }
+  
+  .nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links button {
+    padding: 8px 14px;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  /* SECTIONS */
+  .section {
+    padding: 40px;
+  }
+  
+  /* PROFILE CARD */
+  .profile-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .profile-info {
+    display: inline-block;
+    width: calc(100% - 70px);
+    margin-left: 15px;
+  }
+  
+  .job {
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .desc {
+    margin: 10px 0;
+  }
+  
+  .tags span {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+  
+  .buttons {
+    margin-top: 15px;
+  }
+  
+  .black {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  .outline {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* PRICING */
+  .pricing {
+    text-align: center;
+  }
+  
+  .card {
+    background: #fff;
+    width: 250px;
+    display: inline-block;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    vertical-align: top;
+  }
+  
+  .card.active {
+    border: 2px solid #000;
+  }
+  
+  .price {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .price span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  .full {
+    width: 100%;
+    margin-top: 15px;
+  }
