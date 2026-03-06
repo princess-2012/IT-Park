@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        input {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px;
+            height: 30px;
+            width: 250px;
+            border-radius: 30px;
+            border: 1px solid gray;
+            font-size: 1.5rem;
+        }
+        input:focus {
+            background-color: #ccc;
+            outline: none;
+        }
+        input:invalid {
+            border: 3px solid blue;
+        }
+        input:valid {
+            border: 2px solid beige;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" max="10">
+</body>
+</html>
